@@ -1,0 +1,172 @@
+/* Styles for larger screens */
+@media only screen and (min-width: 768px) {
+    .container {
+        width: 70%;
+    }
+}
+
+/* Styles for tablets */
+@media only screen and (min-width: 600px) and (max-width: 767px) {
+    .container {
+        width: 80%;
+    }
+}
+
+/* Styles for mobile devices */
+@media only screen and (max-width: 599px) {
+    .container {
+        width: 100%;
+    }
+}
+
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+nav.nav1 {
+    text-align: center;
+    padding: 20px;
+    background-color: black;
+    height: 1px;
+    font-size: 1rem;
+    
+}
+
+nav.nav2 {
+    text-align: center;
+    padding: 20px;
+    background-color: rgba(202, 198, 198, 0.753);
+    font-size: 16px;
+    font-weight: 500;
+}
+
+nav a {
+    text-decoration: none;
+    color: black;
+    font-size: 13px;
+    margin: 0 22px;
+}
+
+.dropdown {
+    display: inline-block;
+    position: relative;
+    float: right;
+    margin: 0 15px;
+    padding-top: 1px;
+}
+
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: white;
+    min-width: 160px;
+    z-index: 1;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+    cursor: pointer;
+    font-family: 'Arial', sans-serif; 
+    font-size: 14px; 
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+.container {
+    display: flex;
+    align-items: flex-start;
+    text-align: center;
+    flex-wrap: wrap;
+    font-size: 12px;
+}
+
+
+.dropdown-content a {
+    font-family: 'Arial', sans-serif;
+    font-size: 14px;
+    color: black;
+    text-decoration: none; 
+}
+
+.dropdown-more,
+.dropdown-equipment,
+.dropdown-gifts,
+.dropdown-subscribe {
+    display: inline-block;
+    position: relative;
+    float: right;
+    margin: 0 15px; 
+    padding-top: 30px;
+}
+
+.dropdown-more .dropdown-content,
+.dropdown-equipment .dropdown-content,
+.dropdown-gifts .dropdown-content,
+.dropdown-subscribe .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: white;
+    min-width: 160px;
+    z-index: 1;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.dropdown-more:hover .dropdown-content,
+.dropdown-equipment:hover .dropdown-content,
+.dropdown-gifts:hover .dropdown-content,
+.dropdown-subscribe:hover .dropdown-content {
+    display: block;
+}
+
+.dropdown-Coffee a,
+.dropdown-equipment a,
+.dropdown-gifts a,
+.dropdown-subscribe a,
+.dropdown-Coffee a
+ {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+    cursor: pointer;
+    font-family: 'Arial', sans-serif;
+    font-size: 14px;
+}
+
+.button-container {
+    margin-left: 33%; 
+    font-size: 18px;
+    display: inline-block;
+    align-self: flex-start;
+    margin-top: 40px;
+}
+
+.button {
+    background-color: black;
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 11px;
+    cursor: pointer;
+    border: none;
+    border-radius: 18px;
+    
